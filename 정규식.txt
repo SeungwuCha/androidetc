@@ -1,0 +1,5 @@
+  private void test() {
+        String strInput ="11-18";
+        boolean flag = Pattern.matches("^\\d{1,2}-\\d{2}$", strInput);
+        System.out.println("strInput "+strInput+" "+flag);
+  }
